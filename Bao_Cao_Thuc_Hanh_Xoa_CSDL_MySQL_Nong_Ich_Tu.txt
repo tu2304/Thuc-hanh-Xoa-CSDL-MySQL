@@ -1,0 +1,37 @@
+﻿BÁO CÁO THỰC HÀNH: XOÁ CSDL TRÊN MYSQL WORKBENCH
+
+
+Họ và tên: Nông Ích Tú
+Lớp: CNTT K23K
+Bài thực hành: [Thực hành] Xoá CSDL trên MySQL Workbench
+
+
+I. MỤC TIÊU BÀI THỰC HÀNH
+- Luyện tập các thao tác xóa Cơ sở dữ liệu (CSDL).
+- Thành thạo xóa CSDL bằng giao diện MySQL Workbench và câu lệnh SQL.
+
+
+II. HƯỚNG DẪN THỰC HIỆN CÁC BƯỚC
+
+
+Cách 1: Xoá CSDL sử dụng giao diện MySQL Workbench
+1. Bật MySQL Workbench và đăng nhập bằng tài khoản và mật khẩu máy chủ MySQL.
+2. Chọn một schema (CSDL) muốn xoá trong bảng Schemas, click chuột phải và chọn "Drop Schema...".
+3. Khi xuất hiện thông báo của Workbench, chọn "Drop Now".
+4. Kiểm tra trạng thái việc thực thi tại Action Output. Nếu có dấu tích xanh, CSDL được chọn đã được xóa thành công.
+
+
+Cách 2: Xoá CSDL bằng câu lệnh SQL trên MySQL Workbench
+1. Trong cửa sổ MySQL Workbench, chọn biểu tượng New Query Tab để mở cửa sổ soạn thảo SQL.
+2. Nhập câu lệnh SQL sau:
+DROP DATABASE my_database;
+3. Chọn biểu tượng Execute (hình tia sét) để chạy câu lệnh.
+4. Kiểm tra trạng thái việc thực thi. Dòng thông báo màu xanh xác nhận CSDL đã được xóa thành công.
+
+
+III. LƯU Ý QUAN TRỌNG
+Thao tác xoá CSDL (DROP DATABASE) sẽ xoá vĩnh viễn tất cả dữ liệu bên trong. Cần cẩn trọng và luôn kiểm tra bản sao lưu (backup) trước khi xoá.
+
+
+IV. KẾT LUẬN
+Sinh viên đã nắm vững và hoàn thành tốt bài thực hành xoá CSDL trên MySQL Workbench bằng cả 2 phương pháp.
